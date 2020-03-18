@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06cf5234-a2aa-4936-916f-b5cde4ddf74f" name="Default Changelist" comment="" />
+    <list default="true" id="06cf5234-a2aa-4936-916f-b5cde4ddf74f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USACO-Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/USACO-Practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,16 +20,45 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZH64n5LZDCAhU2dUUL7v5PDfIf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.40570378" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Util.binarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="USACO-Practice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Util" />
+      <option name="METHOD_NAME" value="binarySearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Util.binarySearch" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -35,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584483483277</updated>
-      <workItem from="1584483488146" duration="1947000" />
+      <workItem from="1584483488146" duration="2694000" />
     </task>
     <servers />
   </component>
@@ -43,6 +78,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="2980" height="596" key="GridCell.Tab.0.bottom" timestamp="1584560410663">
+      <screen x="0" y="36" width="3840" height="2124" />
+    </state>
+    <state width="2980" height="596" key="GridCell.Tab.0.bottom/0.36.3840.2124@0.36.3840.2124" timestamp="1584560410663" />
+    <state width="2980" height="596" key="GridCell.Tab.0.center" timestamp="1584560410663">
+      <screen x="0" y="36" width="3840" height="2124" />
+    </state>
+    <state width="2980" height="596" key="GridCell.Tab.0.center/0.36.3840.2124@0.36.3840.2124" timestamp="1584560410663" />
+    <state width="2980" height="596" key="GridCell.Tab.0.left" timestamp="1584560410663">
+      <screen x="0" y="36" width="3840" height="2124" />
+    </state>
+    <state width="2980" height="596" key="GridCell.Tab.0.left/0.36.3840.2124@0.36.3840.2124" timestamp="1584560410663" />
+    <state width="2980" height="596" key="GridCell.Tab.0.right" timestamp="1584560410663">
+      <screen x="0" y="36" width="3840" height="2124" />
+    </state>
+    <state width="2980" height="596" key="GridCell.Tab.0.right/0.36.3840.2124@0.36.3840.2124" timestamp="1584560410663" />
+    <state x="1673" y="564" key="SettingsEditor" timestamp="1584560031178">
+      <screen x="0" y="36" width="3840" height="2124" />
+    </state>
+    <state x="1673" y="564" key="SettingsEditor/0.36.3840.2124@0.36.3840.2124" timestamp="1584560031178" />
+    <state x="1892" y="953" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1584560025744">
+      <screen x="0" y="36" width="3840" height="2124" />
+    </state>
+    <state x="1892" y="953" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.36.3840.2124@0.36.3840.2124" timestamp="1584560025744" />
     <state x="1895" y="529" key="search.everywhere.popup" timestamp="1584559489811">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
