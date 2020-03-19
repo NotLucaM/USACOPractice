@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="06cf5234-a2aa-4936-916f-b5cde4ddf74f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USACO-Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/USACO-Practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FlowNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlowNetwork.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -54,7 +55,17 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Util.testKMPSearch">
+  <component name="RunManager" selected="JUnit.GraphTest.dijkstra">
+    <configuration name="GraphTest.dijkstra" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="USACO-Practice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GraphTest" />
+      <option name="METHOD_NAME" value="dijkstra" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SuffixArrayTest.testContains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="USACO-Practice" />
       <option name="PACKAGE_NAME" value="" />
@@ -85,16 +96,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Util.binarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="USACO-Practice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Util" />
-      <option name="METHOD_NAME" value="binarySearch" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Util.testKMPSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="USACO-Practice" />
       <option name="PACKAGE_NAME" value="" />
@@ -107,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GraphTest.dijkstra" />
         <item itemvalue="JUnit.Util.testKMPSearch" />
         <item itemvalue="JUnit.SuffixArrayTest.testContains" />
         <item itemvalue="JUnit.SuffixArray.testContains" />
         <item itemvalue="JUnit.SuffixTrie.testTrie" />
-        <item itemvalue="JUnit.Util.binarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +126,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584483483277</updated>
-      <workItem from="1584483488146" duration="23155000" />
+      <workItem from="1584483488146" duration="26004000" />
     </task>
     <servers />
   </component>
@@ -133,42 +134,66 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2079" y="740" key="#com.intellij.ide.util.MemberChooser" timestamp="1584657424911">
+    <state x="1012" y="136" width="2728" height="1924" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1584661019463">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state x="2079" y="740" key="#com.intellij.ide.util.MemberChooser/0.36.3840.2124@0.36.3840.2124" timestamp="1584657424911" />
+    <state x="1012" y="136" width="2728" height="1924" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.36.3840.2124@0.36.3840.2124" timestamp="1584661019463" />
+    <state x="2079" y="740" key="#com.intellij.ide.util.MemberChooser" timestamp="1584659411007">
+      <screen x="0" y="36" width="3840" height="2124" />
+    </state>
+    <state x="2079" y="740" key="#com.intellij.ide.util.MemberChooser/0.36.3840.2124@0.36.3840.2124" timestamp="1584659411007" />
     <state x="1822" y="36" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584636822760">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
     <state x="1822" y="36" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.36.3840.2124@0.36.3840.2124" timestamp="1584636822760" />
-    <state width="2860" height="596" key="GridCell.Tab.0.bottom" timestamp="1584658044253">
+    <state width="2860" height="596" key="GridCell.Tab.0.bottom" timestamp="1584661059956">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2860" height="596" key="GridCell.Tab.0.bottom/0.36.3840.2124@0.36.3840.2124" timestamp="1584658044253" />
-    <state width="2860" height="596" key="GridCell.Tab.0.center" timestamp="1584658044251">
+    <state width="2860" height="596" key="GridCell.Tab.0.bottom/0.36.3840.2124@0.36.3840.2124" timestamp="1584661059956" />
+    <state width="2860" height="596" key="GridCell.Tab.0.center" timestamp="1584661059956">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2860" height="596" key="GridCell.Tab.0.center/0.36.3840.2124@0.36.3840.2124" timestamp="1584658044251" />
-    <state width="2860" height="596" key="GridCell.Tab.0.left" timestamp="1584658044250">
+    <state width="2860" height="596" key="GridCell.Tab.0.center/0.36.3840.2124@0.36.3840.2124" timestamp="1584661059956" />
+    <state width="2860" height="596" key="GridCell.Tab.0.left" timestamp="1584661059955">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2860" height="596" key="GridCell.Tab.0.left/0.36.3840.2124@0.36.3840.2124" timestamp="1584658044250" />
-    <state width="2860" height="596" key="GridCell.Tab.0.right" timestamp="1584658044252">
+    <state width="2860" height="596" key="GridCell.Tab.0.left/0.36.3840.2124@0.36.3840.2124" timestamp="1584661059955" />
+    <state width="2860" height="596" key="GridCell.Tab.0.right" timestamp="1584661059956">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2860" height="596" key="GridCell.Tab.0.right/0.36.3840.2124@0.36.3840.2124" timestamp="1584658044252" />
+    <state width="2860" height="596" key="GridCell.Tab.0.right/0.36.3840.2124@0.36.3840.2124" timestamp="1584661059956" />
+    <state width="2860" height="734" key="GridCell.Tab.1.bottom" timestamp="1584661036840">
+      <screen x="0" y="36" width="3840" height="2124" />
+    </state>
+    <state width="2860" height="734" key="GridCell.Tab.1.bottom/0.36.3840.2124@0.36.3840.2124" timestamp="1584661036840" />
+    <state width="2860" height="734" key="GridCell.Tab.1.center" timestamp="1584661036840">
+      <screen x="0" y="36" width="3840" height="2124" />
+    </state>
+    <state width="2860" height="734" key="GridCell.Tab.1.center/0.36.3840.2124@0.36.3840.2124" timestamp="1584661036840" />
+    <state width="2860" height="734" key="GridCell.Tab.1.left" timestamp="1584661036839">
+      <screen x="0" y="36" width="3840" height="2124" />
+    </state>
+    <state width="2860" height="734" key="GridCell.Tab.1.left/0.36.3840.2124@0.36.3840.2124" timestamp="1584661036839" />
+    <state width="2860" height="734" key="GridCell.Tab.1.right" timestamp="1584661036840">
+      <screen x="0" y="36" width="3840" height="2124" />
+    </state>
+    <state width="2860" height="734" key="GridCell.Tab.1.right/0.36.3840.2124@0.36.3840.2124" timestamp="1584661036840" />
     <state x="1673" y="564" key="SettingsEditor" timestamp="1584560031178">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
     <state x="1673" y="564" key="SettingsEditor/0.36.3840.2124@0.36.3840.2124" timestamp="1584560031178" />
-    <state x="1892" y="953" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1584560025744">
+    <state x="1892" y="953" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1584659806613">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state x="1892" y="953" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.36.3840.2124@0.36.3840.2124" timestamp="1584560025744" />
-    <state x="2102" y="663" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584640924487">
+    <state x="1892" y="953" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.36.3840.2124@0.36.3840.2124" timestamp="1584659806613" />
+    <state x="1848" y="603" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584660284735">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state x="2102" y="663" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.36.3840.2124@0.36.3840.2124" timestamp="1584640924487" />
+    <state x="1848" y="603" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.36.3840.2124@0.36.3840.2124" timestamp="1584660284735" />
+    <state x="2102" y="663" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584659796395">
+      <screen x="0" y="36" width="3840" height="2124" />
+    </state>
+    <state x="2102" y="663" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.36.3840.2124@0.36.3840.2124" timestamp="1584659796395" />
     <state x="906" y="246" width="2728" height="1924" key="dock-window-1" timestamp="1584641433031">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
