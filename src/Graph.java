@@ -28,6 +28,10 @@ public class Graph {
         return edges;
     }
 
+    public int dijkstra(int source, int destination) {
+        return dijkstra(source)[destination];
+    }
+
     public int[] dijkstra(int source) {
         int[] distances = new int[vertices];
         Set<Integer> settled = new HashSet<>();
