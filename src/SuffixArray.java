@@ -2,57 +2,70 @@ import java.util.Arrays;
 
 public class SuffixArray {
 
-    private Suffix[] mSuffixes;
+    private Suffix[] suffixes;
 
     public SuffixArray(String text) {
         int n = text.length();
-        mSuffixes = new Suffix[n];
+        suffixes = new Suffix[n];
         for (int i = 0; i < n; i++) {
-            mSuffixes[i] = new Suffix(text, i);
+            suffixes[i] = new Suffix(text, i);
         }
-        Arrays.sort(mSuffixes);
+        Arrays.sort(suffixes);
     }
 
-    private static class Suffix implements Comparable<Suffix> {
+    public boolean contains(String substr) {
+        int ip = Arrays.binarySearch(suffixes, new Suffix(substr));
+        if (ip >= 0) {
+            return true;
+        }
 
-        private String mText;
-        private int mIndex;
+        ip = -ip - 1;
+
+        return ip < suffixes.length && suffixes[ip].toString().startsWith(substr);
+    }
+
+    // TODO: implement longest common substring
+
+    private static class Suffix implements Comparable<Suffix> {
+        private String text;
+        private int index;
+
+        private Suffix(String text) {
+            this(text, 0);
+        }
 
         private Suffix(String text, int index) {
-            mText = text;
-            mIndex = index;
+            this.text = text;
+            this.index = index;
         }
 
         private int length() {
-            return mText.length() - mIndex;
+            return text.length() - index;
         }
 
         private char charAt(int i) {
-            return mText.charAt(mIndex + i);
-        }
-
-        public int compareTo(Suffix o) {
-            if (this == o) return 0;
-            int n = Math.min(this.length(), o.length());
-            for (int i = 0; i < n; i++) {
-                if (this.charAt(i) < o.charAt(i)) return -1;
-                if (this.charAt(i) > o.charAt(i)) return +1;
-            }
-            return this.length() - o.length();
+            return text.charAt(index + i);
         }
 
         public String toString() {
-            return mText.substring(mIndex);
+            return text.substring(index);
         }
-    }
 
-    public int length() {
-        return mSuffixes.length;
-    }
-
-
-    public int index(int i) {
-        if (i < 0 || i >= mSuffixes.length) throw new IllegalArgumentException();
-        return mSuffixes[i].mIndex;
+        @Override
+        public int compareTo(Suffix that) {
+            if (this == that) {
+                return 0;
+            }
+            int n = Math.min(this.length(), that.length());
+            for (int i = 0; i < n; i++) {
+                if (this.charAt(i) < that.charAt(i)) {
+                    return -1;
+                }
+                if (this.charAt(i) > that.charAt(i)) {
+                    return 1;
+                }
+            }
+            return this.length() - that.length();
+        }
     }
 }

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06cf5234-a2aa-4936-916f-b5cde4ddf74f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SuffixArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SuffixArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -37,11 +39,52 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.40570378" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SuffixArrayTest.testContains">
+    <configuration name="SuffixArrayTest.testContains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="USACO-Practice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SuffixArrayTest" />
+      <option name="METHOD_NAME" value="testContains" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuffixArray.testContains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="USACO-Practice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SuffixArray" />
+      <option name="METHOD_NAME" value="testContains" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuffixTrie.testTrie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="USACO-Practice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SuffixTrie" />
+      <option name="METHOD_NAME" value="testTrie" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Util.binarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="USACO-Practice" />
       <option name="PACKAGE_NAME" value="" />
@@ -54,6 +97,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SuffixArrayTest.testContains" />
+        <item itemvalue="JUnit.SuffixArray.testContains" />
+        <item itemvalue="JUnit.SuffixTrie.testTrie" />
         <item itemvalue="JUnit.Util.binarySearch" />
       </list>
     </recent_temporary>
@@ -68,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584483483277</updated>
-      <workItem from="1584483488146" duration="18040000" />
+      <workItem from="1584483488146" duration="22452000" />
     </task>
     <servers />
   </component>
@@ -76,30 +122,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2079" y="740" key="#com.intellij.ide.util.MemberChooser" timestamp="1584636068016">
+    <state x="2079" y="740" key="#com.intellij.ide.util.MemberChooser" timestamp="1584657424911">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state x="2079" y="740" key="#com.intellij.ide.util.MemberChooser/0.36.3840.2124@0.36.3840.2124" timestamp="1584636068016" />
+    <state x="2079" y="740" key="#com.intellij.ide.util.MemberChooser/0.36.3840.2124@0.36.3840.2124" timestamp="1584657424911" />
     <state x="1822" y="36" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584636822760">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
     <state x="1822" y="36" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.36.3840.2124@0.36.3840.2124" timestamp="1584636822760" />
-    <state width="2980" height="596" key="GridCell.Tab.0.bottom" timestamp="1584560436164">
+    <state width="2860" height="596" key="GridCell.Tab.0.bottom" timestamp="1584657788791">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2980" height="596" key="GridCell.Tab.0.bottom/0.36.3840.2124@0.36.3840.2124" timestamp="1584560436164" />
-    <state width="2980" height="596" key="GridCell.Tab.0.center" timestamp="1584560436163">
+    <state width="2860" height="596" key="GridCell.Tab.0.bottom/0.36.3840.2124@0.36.3840.2124" timestamp="1584657788791" />
+    <state width="2860" height="596" key="GridCell.Tab.0.center" timestamp="1584657788791">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2980" height="596" key="GridCell.Tab.0.center/0.36.3840.2124@0.36.3840.2124" timestamp="1584560436163" />
-    <state width="2980" height="596" key="GridCell.Tab.0.left" timestamp="1584560436162">
+    <state width="2860" height="596" key="GridCell.Tab.0.center/0.36.3840.2124@0.36.3840.2124" timestamp="1584657788791" />
+    <state width="2860" height="596" key="GridCell.Tab.0.left" timestamp="1584657788791">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2980" height="596" key="GridCell.Tab.0.left/0.36.3840.2124@0.36.3840.2124" timestamp="1584560436162" />
-    <state width="2980" height="596" key="GridCell.Tab.0.right" timestamp="1584560436164">
+    <state width="2860" height="596" key="GridCell.Tab.0.left/0.36.3840.2124@0.36.3840.2124" timestamp="1584657788791" />
+    <state width="2860" height="596" key="GridCell.Tab.0.right" timestamp="1584657788791">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2980" height="596" key="GridCell.Tab.0.right/0.36.3840.2124@0.36.3840.2124" timestamp="1584560436164" />
+    <state width="2860" height="596" key="GridCell.Tab.0.right/0.36.3840.2124@0.36.3840.2124" timestamp="1584657788791" />
     <state x="1673" y="564" key="SettingsEditor" timestamp="1584560031178">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
@@ -108,6 +154,14 @@
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
     <state x="1892" y="953" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.36.3840.2124@0.36.3840.2124" timestamp="1584560025744" />
+    <state x="2102" y="663" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584640924487">
+      <screen x="0" y="36" width="3840" height="2124" />
+    </state>
+    <state x="2102" y="663" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.36.3840.2124@0.36.3840.2124" timestamp="1584640924487" />
+    <state x="906" y="246" width="2728" height="1924" key="dock-window-1" timestamp="1584641433031">
+      <screen x="0" y="36" width="3840" height="2124" />
+    </state>
+    <state x="906" y="246" width="2728" height="1924" key="dock-window-1/0.36.3840.2124@0.36.3840.2124" timestamp="1584641433031" />
     <state x="1895" y="529" key="search.everywhere.popup" timestamp="1584559489811">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
