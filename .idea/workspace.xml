@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="06cf5234-a2aa-4936-916f-b5cde4ddf74f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SuffixArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SuffixArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584483483277</updated>
-      <workItem from="1584483488146" duration="14258000" />
+      <workItem from="1584483488146" duration="17625000" />
     </task>
     <servers />
   </component>
@@ -77,14 +76,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2079" y="740" key="#com.intellij.ide.util.MemberChooser" timestamp="1584570494305">
+    <state x="2079" y="740" key="#com.intellij.ide.util.MemberChooser" timestamp="1584636068016">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state x="2079" y="740" key="#com.intellij.ide.util.MemberChooser/0.36.3840.2124@0.36.3840.2124" timestamp="1584570494305" />
-    <state x="1822" y="36" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584634953653">
+    <state x="2079" y="740" key="#com.intellij.ide.util.MemberChooser/0.36.3840.2124@0.36.3840.2124" timestamp="1584636068016" />
+    <state x="1822" y="36" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584636822760">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state x="1822" y="36" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.36.3840.2124@0.36.3840.2124" timestamp="1584634953653" />
+    <state x="1822" y="36" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.36.3840.2124@0.36.3840.2124" timestamp="1584636822760" />
     <state width="2980" height="596" key="GridCell.Tab.0.bottom" timestamp="1584560436164">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
