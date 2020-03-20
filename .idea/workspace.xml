@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="06cf5234-a2aa-4936-916f-b5cde4ddf74f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USACO-Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/USACO-Practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlowNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlowNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SegmentTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SegmentTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,7 +54,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GraphTest.dijkstra">
+  <component name="RunManager" selected="Application.SegmentTree">
+    <configuration name="SegmentTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SegmentTree" />
+      <module name="USACO-Practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GraphTest.dijkstra" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="USACO-Practice" />
       <option name="PACKAGE_NAME" value="" />
@@ -86,16 +92,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuffixTrie.testTrie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="USACO-Practice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SuffixTrie" />
-      <option name="METHOD_NAME" value="testTrie" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Util.testKMPSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="USACO-Practice" />
       <option name="PACKAGE_NAME" value="" />
@@ -108,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SegmentTree" />
         <item itemvalue="JUnit.GraphTest.dijkstra" />
         <item itemvalue="JUnit.Util.testKMPSearch" />
         <item itemvalue="JUnit.SuffixArrayTest.testContains" />
         <item itemvalue="JUnit.SuffixArray.testContains" />
-        <item itemvalue="JUnit.SuffixTrie.testTrie" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584483483277</updated>
-      <workItem from="1584483488146" duration="26004000" />
+      <workItem from="1584483488146" duration="29367000" />
     </task>
     <servers />
   </component>
@@ -146,22 +142,22 @@
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
     <state x="1822" y="36" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.36.3840.2124@0.36.3840.2124" timestamp="1584636822760" />
-    <state width="2860" height="596" key="GridCell.Tab.0.bottom" timestamp="1584661059956">
+    <state width="2860" height="596" key="GridCell.Tab.0.bottom" timestamp="1584724656684">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2860" height="596" key="GridCell.Tab.0.bottom/0.36.3840.2124@0.36.3840.2124" timestamp="1584661059956" />
-    <state width="2860" height="596" key="GridCell.Tab.0.center" timestamp="1584661059956">
+    <state width="2860" height="596" key="GridCell.Tab.0.bottom/0.36.3840.2124@0.36.3840.2124" timestamp="1584724656684" />
+    <state width="2860" height="596" key="GridCell.Tab.0.center" timestamp="1584724656682">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2860" height="596" key="GridCell.Tab.0.center/0.36.3840.2124@0.36.3840.2124" timestamp="1584661059956" />
-    <state width="2860" height="596" key="GridCell.Tab.0.left" timestamp="1584661059955">
+    <state width="2860" height="596" key="GridCell.Tab.0.center/0.36.3840.2124@0.36.3840.2124" timestamp="1584724656682" />
+    <state width="2860" height="596" key="GridCell.Tab.0.left" timestamp="1584724656681">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2860" height="596" key="GridCell.Tab.0.left/0.36.3840.2124@0.36.3840.2124" timestamp="1584661059955" />
-    <state width="2860" height="596" key="GridCell.Tab.0.right" timestamp="1584661059956">
+    <state width="2860" height="596" key="GridCell.Tab.0.left/0.36.3840.2124@0.36.3840.2124" timestamp="1584724656681" />
+    <state width="2860" height="596" key="GridCell.Tab.0.right" timestamp="1584724656683">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2860" height="596" key="GridCell.Tab.0.right/0.36.3840.2124@0.36.3840.2124" timestamp="1584661059956" />
+    <state width="2860" height="596" key="GridCell.Tab.0.right/0.36.3840.2124@0.36.3840.2124" timestamp="1584724656683" />
     <state width="2860" height="734" key="GridCell.Tab.1.bottom" timestamp="1584661036840">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
