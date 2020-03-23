@@ -1,4 +1,3 @@
-
 /*
  problem http://www.usaco.org/index.php?page=viewproblem2&cpid=839
  */
@@ -8,17 +7,6 @@ import java.util.StringTokenizer;
 
 @SuppressWarnings("ALL")
 public class talent {
-
-    private static class Cow {
-        private int weight;
-        private int talent;
-
-
-        public Cow(int weight, int talent) {
-            this.weight = weight;
-            this.talent = talent;
-        }
-    }
 
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new FileReader("milkorder.in"));
@@ -47,11 +35,41 @@ public class talent {
         }
     }
 
+    static int knapSack(int maxWeight, Cow[] cows, int n) {
+        int i, w;
+        int dp[][] = new int[n + 1][maxWeight + 1];
+
+        for (i = 0; i <= n; i++) {
+            for (w = 0; w <= maxWeight; w++) {
+                if (i == 0 || w == 0) {
+                    dp[i][w] = 0;
+                } else if (cows[i - 1].weight <= w) {
+                    dp[i][w] = Math.max(cows[i - 1].talent + dp[i - 1][w - cows[i - 1].weight], dp[i - 1][w]);
+                } else {
+                    dp[i][w] = dp[i - 1][w];
+                }
+            }
+        }
+
+        return dp[n][maxWeight];
+    }
+
     private static boolean check() {
         return false;
     }
 
     private static int readInt(StringTokenizer st) {
         return Integer.parseInt(st.nextToken());
+    }
+
+    private static class Cow {
+        private int weight;
+        private int talent;
+
+
+        public Cow(int weight, int talent) {
+            this.weight = weight;
+            this.talent = talent;
+        }
     }
 }
