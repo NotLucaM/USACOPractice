@@ -48,7 +48,7 @@ public class milkorder {
         }
 
         int l = 0, r = observations;
-        int m = -1;
+        int m;
         while (l <= r) {
              m = l + (r - l) / 2;
 
@@ -67,7 +67,9 @@ public class milkorder {
     }
 
     private static boolean check(ArrayList<Node>[] edges, int level) {
+        boolean[] visited = new boolean[cows];
         int[] precursors = new int[cows];
+        int[] res = new int[cows];
 
         for (ArrayList<Integer> list : successors) {
             list.clear();
@@ -101,9 +103,17 @@ public class milkorder {
                 }
             }
 
-            result[i] = r;
+            res[i] = r;
+            visited[i] = true;
         }
 
+        for (boolean visit : visited) {
+            if (!visit) {
+                return false;
+            }
+        }
+
+        result = res;
         return true;
     }
 }
