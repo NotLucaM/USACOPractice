@@ -35,7 +35,20 @@ public class talent {
             cows[i] = new Cow(readInt(st), readInt(st));
         }
 
+        int l = 0, r = 1000000;
+        while (l <= r) {
+            int m = l + (r - l) / 2;
 
+            if (check()) {
+                l = m + 1;
+            } else {
+                r = m - 1;
+            }
+        }
+    }
+
+    private static boolean check() {
+        return false;
     }
 
     private static int readInt(StringTokenizer st) {
