@@ -16,4 +16,8 @@ public class talent {
 
 
     }
+
+    private int readInt(StringTokenizer st) {
+        return Integer.parseInt(st.nextToken());
+    }
 }
