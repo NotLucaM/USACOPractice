@@ -8,54 +8,59 @@ import java.util.StringTokenizer;
 @SuppressWarnings("ALL")
 public class talent {
 
+    private static Cow[] cows;
+    private static long[] dp;
+    private static int numberOfCows;
+    private static int minWeight;
+
     public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new FileReader("milkorder.in"));
-        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("milkorder.out")));
+        BufferedReader in = new BufferedReader(new FileReader("talent.in"));
+        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("talent.out")));
         StringTokenizer st;
 
         st = new StringTokenizer(in.readLine());
-        int numberOfCows = readInt(st);
-        int minWeight = readInt(st);
-
-        Cow[] cows = new Cow[numberOfCows];
+        numberOfCows = readInt(st);
+        minWeight = readInt(st);
+        dp = new long[250000001];
+        cows = new Cow[minWeight];
         for (int i = 0; i < numberOfCows; i++) {
             st = new StringTokenizer(in.readLine());
             cows[i] = new Cow(readInt(st), readInt(st));
         }
 
-        int l = 0, r = 1000000;
+        int l = 0, r = 250000001;
         while (l <= r) {
             int m = l + (r - l) / 2;
 
-            if (check()) {
+            if (check(l)) {
                 l = m + 1;
             } else {
                 r = m - 1;
             }
         }
+        System.out.println(l);
     }
 
-    static int knapSack(int maxWeight, Cow[] cows, int n) {
-        int i, w;
-        int dp[][] = new int[n + 1][maxWeight + 1];
+    static boolean check(int weight) {
+        for (int i = 0; i < minWeight; i++) {
+            dp[i] = Long.MIN_VALUE;
+        }
+        dp[0] = 0;
 
-        for (i = 0; i <= n; i++) {
-            for (w = 0; w <= maxWeight; w++) {
-                if (i == 0 || w == 0) {
-                    dp[i][w] = 0;
-                } else if (cows[i - 1].weight <= w) {
-                    dp[i][w] = Math.max(cows[i - 1].talent + dp[i - 1][w - cows[i - 1].weight], dp[i - 1][w]);
-                } else {
-                    dp[i][w] = dp[i - 1][w];
+        for (int j = 0; j < numberOfCows; j++) {
+            long value = 1000 * cows[j].talent - weight * cows[j].weight;
+            int inc = cows[j].weight;
+            for (int k = weight; k >= 0; k--) {
+                int k1 = Math.min(weight, k + inc);
+                if (dp[k] != Long.MIN_VALUE) {
+                    if (dp[k1] < dp[k] + value) {
+                        dp[k1] = dp[k] + value;
+                    }
                 }
             }
         }
 
-        return dp[n][maxWeight];
-    }
-
-    private static boolean check() {
-        return false;
+        return dp[weight] >= 0;
     }
 
     private static int readInt(StringTokenizer st) {

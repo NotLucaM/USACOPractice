@@ -3,12 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="06cf5234-a2aa-4936-916f-b5cde4ddf74f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/milkorder.out" beforeDir="false" afterPath="$PROJECT_DIR$/milkorder.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/practice/talent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/talent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="308" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,7 +62,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.milkorder">
+  <component name="RunManager" selected="Application.talent">
     <configuration name="milkorder (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="milkorder" />
       <module name="USACO-Practice" />
@@ -79,6 +83,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="talent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="talent" />
+      <module name="USACO-Practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="treecoloring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.treecoloring" />
       <module name="USACO-Practice" />
@@ -88,16 +99,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GraphTest.floydWarshall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="USACO-Practice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GraphTest" />
-      <option name="METHOD_NAME" value="floydWarshall" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.talent" />
         <item itemvalue="Application.milkorder" />
         <item itemvalue="Application.milkorder (1)" />
         <item itemvalue="Application.treecoloring" />
         <item itemvalue="JUnit.GraphTest.topologicalSort" />
-        <item itemvalue="JUnit.GraphTest.floydWarshall" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +134,8 @@
       <option name="presentableId" value="Default" />
       <updated>1584483483277</updated>
       <workItem from="1584483488146" duration="46759000" />
-      <workItem from="1584989390354" duration="10691000" />
+      <workItem from="1584989390354" duration="12725000" />
+      <workItem from="1585070447157" duration="2804000" />
     </task>
     <servers />
   </component>
@@ -169,22 +171,22 @@
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
     <state x="1660" y="821" key="#xdebugger.evaluate/0.36.3840.2124@0.36.3840.2124" timestamp="1585001997404" />
-    <state width="2265" height="596" key="GridCell.Tab.0.bottom" timestamp="1585003235022">
+    <state width="2265" height="621" key="GridCell.Tab.0.bottom" timestamp="1585080706790">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2265" height="596" key="GridCell.Tab.0.bottom/0.36.3840.2124@0.36.3840.2124" timestamp="1585003235022" />
-    <state width="2265" height="596" key="GridCell.Tab.0.center" timestamp="1585003235021">
+    <state width="2265" height="621" key="GridCell.Tab.0.bottom/0.36.3840.2124@0.36.3840.2124" timestamp="1585080706790" />
+    <state width="2265" height="621" key="GridCell.Tab.0.center" timestamp="1585080706790">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2265" height="596" key="GridCell.Tab.0.center/0.36.3840.2124@0.36.3840.2124" timestamp="1585003235021" />
-    <state width="2265" height="596" key="GridCell.Tab.0.left" timestamp="1585003235020">
+    <state width="2265" height="621" key="GridCell.Tab.0.center/0.36.3840.2124@0.36.3840.2124" timestamp="1585080706790" />
+    <state width="2265" height="621" key="GridCell.Tab.0.left" timestamp="1585080706789">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2265" height="596" key="GridCell.Tab.0.left/0.36.3840.2124@0.36.3840.2124" timestamp="1585003235020" />
-    <state width="2265" height="596" key="GridCell.Tab.0.right" timestamp="1585003235021">
+    <state width="2265" height="621" key="GridCell.Tab.0.left/0.36.3840.2124@0.36.3840.2124" timestamp="1585080706789" />
+    <state width="2265" height="621" key="GridCell.Tab.0.right" timestamp="1585080706790">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2265" height="596" key="GridCell.Tab.0.right/0.36.3840.2124@0.36.3840.2124" timestamp="1585003235021" />
+    <state width="2265" height="621" key="GridCell.Tab.0.right/0.36.3840.2124@0.36.3840.2124" timestamp="1585080706790" />
     <state width="2265" height="734" key="GridCell.Tab.1.bottom" timestamp="1585003228988">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
@@ -205,10 +207,10 @@
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
     <state x="1673" y="564" key="SettingsEditor/0.36.3840.2124@0.36.3840.2124" timestamp="1584560031178" />
-    <state x="2235" y="887" key="com.intellij.ide.util.TipDialog" timestamp="1584989409140">
+    <state x="2235" y="887" key="com.intellij.ide.util.TipDialog" timestamp="1585070459115">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state x="2235" y="887" key="com.intellij.ide.util.TipDialog/0.36.3840.2124@0.36.3840.2124" timestamp="1584989409140" />
+    <state x="2235" y="887" key="com.intellij.ide.util.TipDialog/0.36.3840.2124@0.36.3840.2124" timestamp="1585070459115" />
     <state x="1892" y="953" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1584659806613">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
@@ -247,7 +249,20 @@
           <line>93</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practice/talent.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practice/talent.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/USACO_Practice$talent.ic" NAME="talent Coverage Results" MODIFIED="1585080706778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
