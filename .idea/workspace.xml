@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="06cf5234-a2aa-4936-916f-b5cde4ddf74f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO-Practice/practice/teamwork.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO-Practice/practice/teamwork.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/teamwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/teamwork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teamwork.out" beforeDir="false" afterPath="$PROJECT_DIR$/teamwork.out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,22 +173,22 @@
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
     <state x="1660" y="821" key="#xdebugger.evaluate/0.36.3840.2124@0.36.3840.2124" timestamp="1585001997404" />
-    <state width="2507" height="734" key="GridCell.Tab.0.bottom" timestamp="1585166556521">
+    <state width="2507" height="621" key="GridCell.Tab.0.bottom" timestamp="1585166845864">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2507" height="734" key="GridCell.Tab.0.bottom/0.36.3840.2124@0.36.3840.2124" timestamp="1585166556521" />
-    <state width="2507" height="734" key="GridCell.Tab.0.center" timestamp="1585166556520">
+    <state width="2507" height="621" key="GridCell.Tab.0.bottom/0.36.3840.2124@0.36.3840.2124" timestamp="1585166845864" />
+    <state width="2507" height="621" key="GridCell.Tab.0.center" timestamp="1585166845863">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2507" height="734" key="GridCell.Tab.0.center/0.36.3840.2124@0.36.3840.2124" timestamp="1585166556520" />
-    <state width="2507" height="734" key="GridCell.Tab.0.left" timestamp="1585166556520">
+    <state width="2507" height="621" key="GridCell.Tab.0.center/0.36.3840.2124@0.36.3840.2124" timestamp="1585166845863" />
+    <state width="2507" height="621" key="GridCell.Tab.0.left" timestamp="1585166845863">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2507" height="734" key="GridCell.Tab.0.left/0.36.3840.2124@0.36.3840.2124" timestamp="1585166556520" />
-    <state width="2507" height="734" key="GridCell.Tab.0.right" timestamp="1585166556520">
+    <state width="2507" height="621" key="GridCell.Tab.0.left/0.36.3840.2124@0.36.3840.2124" timestamp="1585166845863" />
+    <state width="2507" height="621" key="GridCell.Tab.0.right" timestamp="1585166845863">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2507" height="734" key="GridCell.Tab.0.right/0.36.3840.2124@0.36.3840.2124" timestamp="1585166556520" />
+    <state width="2507" height="621" key="GridCell.Tab.0.right/0.36.3840.2124@0.36.3840.2124" timestamp="1585166845863" />
     <state width="2507" height="734" key="GridCell.Tab.1.bottom" timestamp="1585166556521">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
@@ -232,10 +229,10 @@
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
     <state x="2102" y="663" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.36.3840.2124@0.36.3840.2124" timestamp="1584659796395" />
-    <state x="906" y="246" width="2728" height="1924" key="dock-window-1" timestamp="1584641433031">
+    <state x="906" y="236" width="2728" height="1924" key="dock-window-1" timestamp="1585166869853">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state x="906" y="246" width="2728" height="1924" key="dock-window-1/0.36.3840.2124@0.36.3840.2124" timestamp="1584641433031" />
+    <state x="906" y="236" width="2728" height="1924" key="dock-window-1/0.36.3840.2124@0.36.3840.2124" timestamp="1585166869853" />
     <state x="2127" y="518" key="run.anything.popup" timestamp="1585097317183">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
