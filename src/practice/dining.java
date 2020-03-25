@@ -15,7 +15,7 @@ public class dining {
     private static ArrayList<Node>[] graph;
     private static ArrayList<Node> food;
 
-    public int[] dijkstra(int source) {
+    public static int[] dijkstra(int source) {
         int[] distances = new int[cowNum];
         Set<Integer> settled = new HashSet<>();
         PriorityQueue<Node> pq = new PriorityQueue<>();
@@ -69,7 +69,7 @@ public class dining {
             st = new StringTokenizer(in.readLine());
             int from = parseInt(st.nextToken()) - 1;
             int to = parseInt(st.nextToken()) - 1;
-            int cost = parseInt(st.nextToken()) - 1;
+            int cost = parseInt(st.nextToken());
 
             graph[from].add(new Node(to, cost));
         }
@@ -77,12 +77,31 @@ public class dining {
         for (int i = 0; i < foodNum; i++) {
             st = new StringTokenizer(in.readLine());
             int location = parseInt(st.nextToken()) - 1;
-            int cost = parseInt(st.nextToken()) - 1;
+            int cost = parseInt(st.nextToken());
 
             food.add(new Node(location, cost));
         }
 
+        int[] distances = dijkstra(cowNum - 1);
+        for (Node hay : food) {
+            ArrayList<Node> edges = graph[hay.destination];
+            for (int i = edges.size() - 1; i >= 0; i--) {
+                if (edges.get(i).destination == cowNum - 1) {
+                    edges.remove(i);
+                }
+            }
+            edges.add(new Node(cowNum - 1, distances[hay.destination] - hay.cost));
+        }
+        int[] finalDistances = dijkstra(cowNum - 1);
 
+        for (int i = 0; i < cowNum; i++) {
+            if (distances[i] == finalDistances[i]) {
+                out.println("0");
+            } else {
+                out.println("1");
+            }
+        }
+        out.close();
     }
 
     public static class Node implements Comparable<Node> {
