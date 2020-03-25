@@ -29,21 +29,20 @@ public class dining {
                 return distances;
             }
 
-            int u = pq.remove().destination;
-            settled.add(u);
+            int shortestNode = pq.remove().destination;
+            settled.add(shortestNode);
 
-            for (int i = 0; i < graph[u].size(); i++) {
-                Node v = graph[u].get(i);
+            for (int i = 0; i < graph[shortestNode].size(); i++) {
+                Node adjacentNode = graph[shortestNode].get(i);
 
-                if (!settled.contains(v.destination)) {
-                    int edgeDistance = v.cost;
-                    int newDistance = distances[u] + edgeDistance;
+                if (!settled.contains(adjacentNode.destination)) {
+                    int edgeDistance = adjacentNode.cost;
+                    int newDistance = distances[shortestNode] + edgeDistance;
 
-                    if (newDistance < distances[v.destination]) {
-                        distances[v.destination] = newDistance;
+                    if (newDistance < distances[adjacentNode.destination]) {
+                        distances[adjacentNode.destination] = newDistance;
+                        pq.add(new Node(adjacentNode.destination, distances[adjacentNode.destination]));
                     }
-
-                    pq.add(new Node(v.destination, distances[v.destination]));
                 }
             }
         }
@@ -97,7 +96,7 @@ public class dining {
         }
         int[] finalDistances = dijkstra(cowNum - 1);
 
-        for (int i = 0; i < cowNum; i++) {
+        for (int i = 0; i < cowNum - 1; i++) {
             if (distances[i] == finalDistances[i]) {
                 out.println("0");
             } else {
