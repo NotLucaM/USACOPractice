@@ -74,6 +74,7 @@ public class dining {
             int cost = parseInt(st.nextToken());
 
             graph[from].add(new Node(to, cost));
+            graph[to].add(new Node(from, cost));
         }
 
         for (int i = 0; i < foodNum; i++) {
@@ -85,14 +86,9 @@ public class dining {
         }
 
         int[] distances = dijkstra(cowNum - 1);
+        graph[cowNum - 1].clear();
         for (Node hay : food) {
-            ArrayList<Node> edges = graph[hay.destination];
-            for (int i = edges.size() - 1; i >= 0; i--) {
-                if (edges.get(i).destination == cowNum - 1) {
-                    edges.remove(i);
-                }
-            }
-            edges.add(new Node(cowNum - 1, distances[hay.destination] - hay.cost));
+            graph[hay.destination].add(new Node(cowNum - 1, distances[hay.destination] - hay.cost));
         }
         int[] finalDistances = dijkstra(cowNum - 1);
 
