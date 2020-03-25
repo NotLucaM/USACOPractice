@@ -21,5 +21,23 @@ public class teamwork {
         for (int i = 0; i < cows; i++) {
             cowSkills[i] = parseInt(in.readLine());
         }
+
+        int[] dp = new int[cows];
+        dp[0] = cowSkills[0];
+        for (int i = 0; i < cows; i++) {
+            int max = cowSkills[i];
+            for (int j = i; i + 1 - j < teamSize && j >= 0; j--) {
+                max = Math.max(max, cowSkills[j]);
+
+                if (j == 0) {
+                    dp[i] = Math.max(dp[i], max * (i + 1 - j));
+                } else {
+                    dp[i] = Math.max(dp[i], dp[j - 1] + max * (i + 1 - j));
+                }
+            }
+        }
+
+        out.println(dp[cows - 1]);
+        out.close();
     }
 }
