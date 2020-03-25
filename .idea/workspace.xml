@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="06cf5234-a2aa-4936-916f-b5cde4ddf74f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/snowboots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/snowboots.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.teamwork">
+  <component name="RunManager" selected="Application.snowboots">
     <configuration name="dining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.dining" />
       <module name="USACO-Practice" />
@@ -75,13 +76,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="milkorder (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="milkorder" />
-      <module name="USACO-Practice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="milkorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.milkorder" />
       <module name="USACO-Practice" />
@@ -91,6 +85,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="snowboots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="snowboots" />
+      <module name="USACO-Practice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.snowboots" />
         <item itemvalue="Application.teamwork" />
         <item itemvalue="Application.dining" />
         <item itemvalue="Application.talent" />
         <item itemvalue="Application.milkorder" />
-        <item itemvalue="Application.milkorder (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -157,10 +158,10 @@
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
     <state x="2269" y="857" key="#com.intellij.fileTypes.FileTypeChooser/0.36.3840.2124@0.36.3840.2124" timestamp="1584754450448" />
-    <state x="2079" y="740" key="#com.intellij.ide.util.MemberChooser" timestamp="1585005200549">
+    <state x="2045" y="823" key="#com.intellij.ide.util.MemberChooser" timestamp="1585179772475">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state x="2079" y="740" key="#com.intellij.ide.util.MemberChooser/0.36.3840.2124@0.36.3840.2124" timestamp="1585005200549" />
+    <state x="2045" y="823" key="#com.intellij.ide.util.MemberChooser/0.36.3840.2124@0.36.3840.2124" timestamp="1585179772475" />
     <state x="2356" y="520" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1585006185628">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
@@ -173,38 +174,38 @@
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
     <state x="1660" y="821" key="#xdebugger.evaluate/0.36.3840.2124@0.36.3840.2124" timestamp="1585001997404" />
-    <state width="2507" height="621" key="GridCell.Tab.0.bottom" timestamp="1585166845864">
+    <state width="2507" height="734" key="GridCell.Tab.0.bottom" timestamp="1585180594241">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2507" height="621" key="GridCell.Tab.0.bottom/0.36.3840.2124@0.36.3840.2124" timestamp="1585166845864" />
-    <state width="2507" height="621" key="GridCell.Tab.0.center" timestamp="1585166845863">
+    <state width="2507" height="734" key="GridCell.Tab.0.bottom/0.36.3840.2124@0.36.3840.2124" timestamp="1585180594241" />
+    <state width="2507" height="734" key="GridCell.Tab.0.center" timestamp="1585180594241">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2507" height="621" key="GridCell.Tab.0.center/0.36.3840.2124@0.36.3840.2124" timestamp="1585166845863" />
-    <state width="2507" height="621" key="GridCell.Tab.0.left" timestamp="1585166845863">
+    <state width="2507" height="734" key="GridCell.Tab.0.center/0.36.3840.2124@0.36.3840.2124" timestamp="1585180594241" />
+    <state width="2507" height="734" key="GridCell.Tab.0.left" timestamp="1585180594240">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2507" height="621" key="GridCell.Tab.0.left/0.36.3840.2124@0.36.3840.2124" timestamp="1585166845863" />
-    <state width="2507" height="621" key="GridCell.Tab.0.right" timestamp="1585166845863">
+    <state width="2507" height="734" key="GridCell.Tab.0.left/0.36.3840.2124@0.36.3840.2124" timestamp="1585180594240" />
+    <state width="2507" height="734" key="GridCell.Tab.0.right" timestamp="1585180594241">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2507" height="621" key="GridCell.Tab.0.right/0.36.3840.2124@0.36.3840.2124" timestamp="1585166845863" />
-    <state width="2507" height="734" key="GridCell.Tab.1.bottom" timestamp="1585166556521">
+    <state width="2507" height="734" key="GridCell.Tab.0.right/0.36.3840.2124@0.36.3840.2124" timestamp="1585180594241" />
+    <state width="2507" height="734" key="GridCell.Tab.1.bottom" timestamp="1585180594241">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2507" height="734" key="GridCell.Tab.1.bottom/0.36.3840.2124@0.36.3840.2124" timestamp="1585166556521" />
-    <state width="2507" height="734" key="GridCell.Tab.1.center" timestamp="1585166556521">
+    <state width="2507" height="734" key="GridCell.Tab.1.bottom/0.36.3840.2124@0.36.3840.2124" timestamp="1585180594241" />
+    <state width="2507" height="734" key="GridCell.Tab.1.center" timestamp="1585180594241">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2507" height="734" key="GridCell.Tab.1.center/0.36.3840.2124@0.36.3840.2124" timestamp="1585166556521" />
-    <state width="2507" height="734" key="GridCell.Tab.1.left" timestamp="1585166556521">
+    <state width="2507" height="734" key="GridCell.Tab.1.center/0.36.3840.2124@0.36.3840.2124" timestamp="1585180594241" />
+    <state width="2507" height="734" key="GridCell.Tab.1.left" timestamp="1585180594241">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2507" height="734" key="GridCell.Tab.1.left/0.36.3840.2124@0.36.3840.2124" timestamp="1585166556521" />
-    <state width="2507" height="734" key="GridCell.Tab.1.right" timestamp="1585166556521">
+    <state width="2507" height="734" key="GridCell.Tab.1.left/0.36.3840.2124@0.36.3840.2124" timestamp="1585180594241" />
+    <state width="2507" height="734" key="GridCell.Tab.1.right" timestamp="1585180594241">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2507" height="734" key="GridCell.Tab.1.right/0.36.3840.2124@0.36.3840.2124" timestamp="1585166556521" />
+    <state width="2507" height="734" key="GridCell.Tab.1.right/0.36.3840.2124@0.36.3840.2124" timestamp="1585180594241" />
     <state x="1673" y="564" key="SettingsEditor" timestamp="1585098037791">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
@@ -269,6 +270,11 @@
           <url>file://$PROJECT_DIR$/src/practice/teamwork.java</url>
           <line>26</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practice/snowboots.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
