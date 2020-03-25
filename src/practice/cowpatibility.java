@@ -9,5 +9,7 @@ public class cowpatibility {
         BufferedReader in = new BufferedReader(new FileReader("cowpatibility.in"));
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("cowpatibility.out")));
         StringTokenizer st;
+
+        // TODO: understand and finish this problem using include/exclude algorithm
     }
 }
