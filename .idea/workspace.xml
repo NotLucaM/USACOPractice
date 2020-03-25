@@ -59,7 +59,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.dining">
+  <component name="RunManager" selected="Application.teamwork">
     <configuration name="dining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.dining" />
       <module name="USACO-Practice" />
@@ -100,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="treecoloring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.treecoloring" />
+    <configuration name="teamwork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.teamwork" />
       <module name="USACO-Practice" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.teamwork" />
         <item itemvalue="Application.dining" />
         <item itemvalue="Application.talent" />
         <item itemvalue="Application.milkorder" />
         <item itemvalue="Application.milkorder (1)" />
-        <item itemvalue="Application.treecoloring" />
       </list>
     </recent_temporary>
   </component>
