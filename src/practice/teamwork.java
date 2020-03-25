@@ -1,11 +1,10 @@
-package practice;
-
 import java.io.*;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
 import static java.lang.Integer.parseInt;
 
+@SuppressWarnings("ALL")
 public class teamwork {
 
     public static void main(String[] args) throws IOException {
@@ -26,7 +25,7 @@ public class teamwork {
         dp[0] = cowSkills[0];
         for (int i = 0; i < cows; i++) {
             int max = cowSkills[i];
-            for (int j = i; i + 1 - j < teamSize && j >= 0; j--) {
+            for (int j = i; i - j < teamSize && j >= 0; j--) {
                 max = Math.max(max, cowSkills[j]);
 
                 if (j == 0) {
