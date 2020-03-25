@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="06cf5234-a2aa-4936-916f-b5cde4ddf74f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/dining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/dining.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +48,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.40570378" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -133,7 +135,7 @@
       <updated>1584483483277</updated>
       <workItem from="1584483488146" duration="46759000" />
       <workItem from="1584989390354" duration="12725000" />
-      <workItem from="1585070447157" duration="5414000" />
+      <workItem from="1585070447157" duration="7526000" />
     </task>
     <servers />
   </component>
@@ -169,22 +171,22 @@
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
     <state x="1660" y="821" key="#xdebugger.evaluate/0.36.3840.2124@0.36.3840.2124" timestamp="1585001997404" />
-    <state width="2265" height="621" key="GridCell.Tab.0.bottom" timestamp="1585081241025">
+    <state width="2511" height="621" key="GridCell.Tab.0.bottom" timestamp="1585097009622">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2265" height="621" key="GridCell.Tab.0.bottom/0.36.3840.2124@0.36.3840.2124" timestamp="1585081241025" />
-    <state width="2265" height="621" key="GridCell.Tab.0.center" timestamp="1585081241024">
+    <state width="2511" height="621" key="GridCell.Tab.0.bottom/0.36.3840.2124@0.36.3840.2124" timestamp="1585097009622" />
+    <state width="2511" height="621" key="GridCell.Tab.0.center" timestamp="1585097009620">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2265" height="621" key="GridCell.Tab.0.center/0.36.3840.2124@0.36.3840.2124" timestamp="1585081241024" />
-    <state width="2265" height="621" key="GridCell.Tab.0.left" timestamp="1585081241024">
+    <state width="2511" height="621" key="GridCell.Tab.0.center/0.36.3840.2124@0.36.3840.2124" timestamp="1585097009620" />
+    <state width="2511" height="621" key="GridCell.Tab.0.left" timestamp="1585097009619">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2265" height="621" key="GridCell.Tab.0.left/0.36.3840.2124@0.36.3840.2124" timestamp="1585081241024" />
-    <state width="2265" height="621" key="GridCell.Tab.0.right" timestamp="1585081241025">
+    <state width="2511" height="621" key="GridCell.Tab.0.left/0.36.3840.2124@0.36.3840.2124" timestamp="1585097009619" />
+    <state width="2511" height="621" key="GridCell.Tab.0.right" timestamp="1585097009621">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2265" height="621" key="GridCell.Tab.0.right/0.36.3840.2124@0.36.3840.2124" timestamp="1585081241025" />
+    <state width="2511" height="621" key="GridCell.Tab.0.right/0.36.3840.2124@0.36.3840.2124" timestamp="1585097009621" />
     <state width="2265" height="734" key="GridCell.Tab.1.bottom" timestamp="1585003228988">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
@@ -201,10 +203,10 @@
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
     <state width="2265" height="734" key="GridCell.Tab.1.right/0.36.3840.2124@0.36.3840.2124" timestamp="1585003228988" />
-    <state x="1673" y="564" key="SettingsEditor" timestamp="1584560031178">
+    <state x="1673" y="564" key="SettingsEditor" timestamp="1585096483715">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state x="1673" y="564" key="SettingsEditor/0.36.3840.2124@0.36.3840.2124" timestamp="1584560031178" />
+    <state x="1673" y="564" key="SettingsEditor/0.36.3840.2124@0.36.3840.2124" timestamp="1585096483715" />
     <state x="2235" y="887" key="com.intellij.ide.util.TipDialog" timestamp="1585070459115">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
@@ -217,10 +219,10 @@
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
     <state x="1848" y="603" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.36.3840.2124@0.36.3840.2124" timestamp="1584660284735" />
-    <state x="2382" y="983" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584750519965">
+    <state x="2382" y="983" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585097262517">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state x="2382" y="983" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.36.3840.2124@0.36.3840.2124" timestamp="1584750519965" />
+    <state x="2382" y="983" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.36.3840.2124@0.36.3840.2124" timestamp="1585097262517" />
     <state x="2102" y="663" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584659796395">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
@@ -229,10 +231,10 @@
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
     <state x="906" y="246" width="2728" height="1924" key="dock-window-1/0.36.3840.2124@0.36.3840.2124" timestamp="1584641433031" />
-    <state x="1895" y="529" width="840" height="1034" key="search.everywhere.popup" timestamp="1584903967831">
+    <state x="1895" y="529" width="840" height="1034" key="search.everywhere.popup" timestamp="1585097080875">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state x="1895" y="529" width="840" height="1034" key="search.everywhere.popup/0.36.3840.2124@0.36.3840.2124" timestamp="1584903967831" />
+    <state x="1895" y="529" width="840" height="1034" key="search.everywhere.popup/0.36.3840.2124@0.36.3840.2124" timestamp="1585097080875" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
