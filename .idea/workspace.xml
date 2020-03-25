@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06cf5234-a2aa-4936-916f-b5cde4ddf74f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/dining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/dining.java" afterDir="false" />
-    </list>
+    <list default="true" id="06cf5234-a2aa-4936-916f-b5cde4ddf74f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +59,20 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.talent">
+  <component name="RunManager" selected="Application.dining">
+    <configuration name="dining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.dining" />
+      <module name="USACO-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="milkorder (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="milkorder" />
       <module name="USACO-Practice" />
@@ -103,23 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GraphTest.topologicalSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="USACO-Practice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GraphTest" />
-      <option name="METHOD_NAME" value="topologicalSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dining" />
         <item itemvalue="Application.talent" />
         <item itemvalue="Application.milkorder" />
         <item itemvalue="Application.milkorder (1)" />
         <item itemvalue="Application.treecoloring" />
-        <item itemvalue="JUnit.GraphTest.topologicalSort" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +135,7 @@
       <updated>1584483483277</updated>
       <workItem from="1584483488146" duration="46759000" />
       <workItem from="1584989390354" duration="12725000" />
-      <workItem from="1585070447157" duration="8301000" />
+      <workItem from="1585070447157" duration="8883000" />
     </task>
     <servers />
   </component>

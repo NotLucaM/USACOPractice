@@ -64,6 +64,9 @@ public class dining {
 
         graph = new ArrayList[cowNum];
         food = new ArrayList<>();
+        for (int i = 0; i < cowNum; i++) {
+            graph[i] = new ArrayList<>();
+        }
 
         for (int i = 0; i < edgeNum; i++) {
             st = new StringTokenizer(in.readLine());
