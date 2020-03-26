@@ -39,9 +39,9 @@ public class art2 {
 
         Arrays.sort(ranges, (range, t1) -> {
             if (range == null) {
-                return -1;
-            } else if (t1 == null) {
                 return 1;
+            } else if (t1 == null) {
+                return -1;
             }
             return range.start - t1.start;
         });
