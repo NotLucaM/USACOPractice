@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06cf5234-a2aa-4936-916f-b5cde4ddf74f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/practice/snowboots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/snowboots.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,10 +157,10 @@
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
     <state x="2269" y="857" key="#com.intellij.fileTypes.FileTypeChooser/0.36.3840.2124@0.36.3840.2124" timestamp="1584754450448" />
-    <state x="2045" y="823" key="#com.intellij.ide.util.MemberChooser" timestamp="1585179772475">
+    <state x="2045" y="823" key="#com.intellij.ide.util.MemberChooser" timestamp="1585180788745">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state x="2045" y="823" key="#com.intellij.ide.util.MemberChooser/0.36.3840.2124@0.36.3840.2124" timestamp="1585179772475" />
+    <state x="2045" y="823" key="#com.intellij.ide.util.MemberChooser/0.36.3840.2124@0.36.3840.2124" timestamp="1585180788745" />
     <state x="2356" y="520" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1585006185628">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
@@ -270,11 +269,6 @@
           <url>file://$PROJECT_DIR$/src/practice/teamwork.java</url>
           <line>26</line>
           <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/practice/snowboots.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

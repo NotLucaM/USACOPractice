@@ -26,12 +26,10 @@ public class snowboots {
         private Tile next;
         private int index;
         private int snow;
+        private int distance;
 
         public Tile(int index, int snow) {
-            this.prev = null;
-            this.next = null;
-            this.index = index;
-            this.snow = snow;
+            this(null, index, snow);
         }
 
         public Tile(Tile prev, int index, int snow) {
@@ -39,17 +37,28 @@ public class snowboots {
             this.next = null;
             this.index = index;
             this.snow = snow;
+            this.distance = -1;
         }
 
         public void filter(int threshold) {
             if (snow > threshold) {
-                prev.next = this.next;
-                next.prev = this.prev;
+                prev.setNext(this.next);
+                next.setPrev(this.prev);
             }
 
             if (next != null) {
                 next.filter(threshold);
             }
+        }
+
+        public void setPrev(Tile prev) {
+            this.prev = prev;
+        }
+
+        public void setNext(Tile next) {
+            this.next = next;
+
+            this.distance = Math.abs(this.snow - next.snow);
         }
     }
 
@@ -66,11 +75,15 @@ public class snowboots {
         Tile head = new Tile(0, parseInt(st.nextToken()));
         Tile tail = head;
         for (int i = 1; i < tiles; i++) {
-            tail = new Tile(tail, 0, parseInt(st.nextToken()));
-            tail.prev.next = tail;
+            tail = new Tile(tail, i, parseInt(st.nextToken()));
+            tail.prev.setNext(tail);
         }
 
         Boot[] boots = new Boot[bootAmount];
+        for (int i = 0; i < bootAmount; i++) {
+            boots[i] = new Boot(i, parseInt(st.nextToken()), parseInt(st.nextToken()));
+        }
+
 
         out.close();
     }
