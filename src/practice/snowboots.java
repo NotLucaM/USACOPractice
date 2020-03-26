@@ -1,4 +1,6 @@
 import java.io.*;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
@@ -12,11 +14,18 @@ public class snowboots {
         private int index;
         private int strength;
         private int travel;
+        private boolean works;
 
         public Boot(int index, int strength, int travel) {
             this.index = index;
             this.strength = strength;
             this.travel = travel;
+            this.works = false;
+        }
+
+        @Override
+        public String toString() {
+            return works ? "1" : "0";
         }
     }
 
@@ -81,9 +90,16 @@ public class snowboots {
 
         Boot[] boots = new Boot[bootAmount];
         for (int i = 0; i < bootAmount; i++) {
+            st = new StringTokenizer(in.readLine());
             boots[i] = new Boot(i, parseInt(st.nextToken()), parseInt(st.nextToken()));
         }
 
+        Arrays.sort(boots, new Comparator<Boot>() {
+            @Override
+            public int compare(Boot boot, Boot t1) {
+                return t1.strength - boot.strength;
+            }
+        });
 
         out.close();
     }
