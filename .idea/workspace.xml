@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="06cf5234-a2aa-4936-916f-b5cde4ddf74f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/art2.in" beforeDir="false" afterPath="$PROJECT_DIR$/art2.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/art2.out" beforeDir="false" afterPath="$PROJECT_DIR$/art2.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/art2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/art2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.art2">
+  <component name="RunManager" selected="Application.art2 (1)">
+    <configuration name="art2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="art2" />
+      <module name="USACO-Practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="art2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.art2" />
       <module name="USACO-Practice" />
@@ -95,13 +105,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="talent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="talent" />
-      <module name="USACO-Practice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="teamwork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.teamwork" />
       <module name="USACO-Practice" />
@@ -117,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.art2 (1)" />
         <item itemvalue="Application.art2" />
         <item itemvalue="Application.snowboots" />
         <item itemvalue="Application.teamwork" />
         <item itemvalue="Application.dining" />
-        <item itemvalue="Application.talent" />
       </list>
     </recent_temporary>
   </component>
@@ -165,46 +168,46 @@
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
     <state x="2356" y="520" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.36.3840.2124@0.36.3840.2124" timestamp="1585006185628" />
-    <state x="1822" y="36" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584751250553">
+    <state x="1822" y="36" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585347939003">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state x="1822" y="36" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.36.3840.2124@0.36.3840.2124" timestamp="1584751250553" />
+    <state x="1822" y="36" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.36.3840.2124@0.36.3840.2124" timestamp="1585347939003" />
     <state x="1660" y="821" key="#xdebugger.evaluate" timestamp="1585264997115">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
     <state x="1660" y="821" key="#xdebugger.evaluate/0.36.3840.2124@0.36.3840.2124" timestamp="1585264997115" />
-    <state width="2507" height="734" key="GridCell.Tab.0.bottom" timestamp="1585264962343">
+    <state width="2507" height="621" key="GridCell.Tab.0.bottom" timestamp="1585348275585">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2507" height="734" key="GridCell.Tab.0.bottom/0.36.3840.2124@0.36.3840.2124" timestamp="1585264962343" />
-    <state width="2507" height="734" key="GridCell.Tab.0.center" timestamp="1585264962342">
+    <state width="2507" height="621" key="GridCell.Tab.0.bottom/0.36.3840.2124@0.36.3840.2124" timestamp="1585348275585" />
+    <state width="2507" height="621" key="GridCell.Tab.0.center" timestamp="1585348275585">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2507" height="734" key="GridCell.Tab.0.center/0.36.3840.2124@0.36.3840.2124" timestamp="1585264962342" />
-    <state width="2507" height="734" key="GridCell.Tab.0.left" timestamp="1585264962342">
+    <state width="2507" height="621" key="GridCell.Tab.0.center/0.36.3840.2124@0.36.3840.2124" timestamp="1585348275585" />
+    <state width="2507" height="621" key="GridCell.Tab.0.left" timestamp="1585348275585">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2507" height="734" key="GridCell.Tab.0.left/0.36.3840.2124@0.36.3840.2124" timestamp="1585264962342" />
-    <state width="2507" height="734" key="GridCell.Tab.0.right" timestamp="1585264962342">
+    <state width="2507" height="621" key="GridCell.Tab.0.left/0.36.3840.2124@0.36.3840.2124" timestamp="1585348275585" />
+    <state width="2507" height="621" key="GridCell.Tab.0.right" timestamp="1585348275585">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2507" height="734" key="GridCell.Tab.0.right/0.36.3840.2124@0.36.3840.2124" timestamp="1585264962342" />
-    <state width="2507" height="734" key="GridCell.Tab.1.bottom" timestamp="1585264962343">
+    <state width="2507" height="621" key="GridCell.Tab.0.right/0.36.3840.2124@0.36.3840.2124" timestamp="1585348275585" />
+    <state width="2507" height="734" key="GridCell.Tab.1.bottom" timestamp="1585348036643">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2507" height="734" key="GridCell.Tab.1.bottom/0.36.3840.2124@0.36.3840.2124" timestamp="1585264962343" />
-    <state width="2507" height="734" key="GridCell.Tab.1.center" timestamp="1585264962343">
+    <state width="2507" height="734" key="GridCell.Tab.1.bottom/0.36.3840.2124@0.36.3840.2124" timestamp="1585348036643" />
+    <state width="2507" height="734" key="GridCell.Tab.1.center" timestamp="1585348036643">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2507" height="734" key="GridCell.Tab.1.center/0.36.3840.2124@0.36.3840.2124" timestamp="1585264962343" />
-    <state width="2507" height="734" key="GridCell.Tab.1.left" timestamp="1585264962343">
+    <state width="2507" height="734" key="GridCell.Tab.1.center/0.36.3840.2124@0.36.3840.2124" timestamp="1585348036643" />
+    <state width="2507" height="734" key="GridCell.Tab.1.left" timestamp="1585348036643">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2507" height="734" key="GridCell.Tab.1.left/0.36.3840.2124@0.36.3840.2124" timestamp="1585264962343" />
-    <state width="2507" height="734" key="GridCell.Tab.1.right" timestamp="1585264962343">
+    <state width="2507" height="734" key="GridCell.Tab.1.left/0.36.3840.2124@0.36.3840.2124" timestamp="1585348036643" />
+    <state width="2507" height="734" key="GridCell.Tab.1.right" timestamp="1585348036643">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state width="2507" height="734" key="GridCell.Tab.1.right/0.36.3840.2124@0.36.3840.2124" timestamp="1585264962343" />
+    <state width="2507" height="734" key="GridCell.Tab.1.right/0.36.3840.2124@0.36.3840.2124" timestamp="1585348036643" />
     <state x="1673" y="564" key="SettingsEditor" timestamp="1585098037791">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
@@ -233,10 +236,10 @@
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
     <state x="906" y="236" width="2728" height="1924" key="dock-window-1/0.36.3840.2124@0.36.3840.2124" timestamp="1585166869853" />
-    <state x="2127" y="518" key="run.anything.popup" timestamp="1585097317183">
+    <state x="2127" y="518" key="run.anything.popup" timestamp="1585347927697">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
-    <state x="2127" y="518" key="run.anything.popup/0.36.3840.2124@0.36.3840.2124" timestamp="1585097317183" />
+    <state x="2127" y="518" key="run.anything.popup/0.36.3840.2124@0.36.3840.2124" timestamp="1585347927697" />
     <state x="1895" y="529" width="840" height="1034" key="search.everywhere.popup" timestamp="1585264027592">
       <screen x="0" y="36" width="3840" height="2124" />
     </state>
@@ -277,8 +280,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/practice/art2.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="27" />
+          <line>50</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
