@@ -1,10 +1,5 @@
-package practice;
-
 import java.io.*;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class reduce {
 
@@ -51,29 +46,13 @@ public class reduce {
 
     private static Point[] sortX(Point[] arr) {
         Point[] ret = arr.clone();
-        Arrays.sort(arr, (p1, p2) -> {
-            if (p1.x > p2.x) {
-                return -1;
-            } else if (p1.x == p2.x) {
-                return p1.y - p2.y;
-            } else {
-                return 1;
-            }
-        });
+        Arrays.sort(ret, Comparator.comparingInt(p -> p.x));
         return ret;
     }
 
     private static Point[] sortY(Point[] arr) {
         Point[] ret = arr.clone();
-        Arrays.sort(arr, (p1, p2) -> {
-            if (p1.y > p2.y) {
-                return -1;
-            } else if (p1.y == p2.y) {
-                return p1.x - p2.x;
-            } else {
-                return 1;
-            }
-        });
+        Arrays.sort(ret, Comparator.comparingInt(p -> p.y));
         return ret;
     }
 
@@ -83,7 +62,7 @@ public class reduce {
 
         int missingCows = 0;
         for (Point cow : cows) {
-            if ((cow.x < rectPts[0].x || cow.x > rectPts[1].x) && (cow.y < rectPts[2].y || cow.y > rectPts[3].y)) {
+            if ((cow.x < rectPts[0].x || cow.x > rectPts[1].x) || (cow.y < rectPts[2].y || cow.y > rectPts[3].y)) {
                 missingCows++;
             }
         }

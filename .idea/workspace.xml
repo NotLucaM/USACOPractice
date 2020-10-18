@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06cf5234-a2aa-4936-916f-b5cde4ddf74f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reduce.out" beforeDir="false" afterPath="$PROJECT_DIR$/reduce.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/reduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/reduce.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +49,8 @@
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40570378" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -120,13 +123,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,7 +173,8 @@
       <workItem from="1602950750062" duration="128000" />
       <workItem from="1602957166042" duration="273000" />
       <workItem from="1602957823183" duration="572000" />
-      <workItem from="1603016685486" duration="2308000" />
+      <workItem from="1603016685486" duration="3375000" />
+      <workItem from="1603020333439" duration="2723000" />
     </task>
     <servers />
   </component>
@@ -176,10 +182,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="653" y="869" width="616" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603018770342">
+    <state x="649" y="851" width="627" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603021929774">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="653" y="869" width="616" height="410" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3840.2160@0.0.3840.2160" timestamp="1603018770342" />
+    <state x="649" y="851" width="627" height="410" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3840.2160@0.0.3840.2160" timestamp="1603021929774" />
     <state x="762" y="761" width="382" height="554" key="#com.intellij.ide.util.MemberChooser" timestamp="1602362745953">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
@@ -188,34 +194,58 @@
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="2138" y="-36" width="1197" height="2152" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.3840.2160@0.0.3840.2160" timestamp="1602363379875" />
+    <state x="720" y="693" key="#xdebugger.evaluate" timestamp="1603019470718">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="720" y="693" key="#xdebugger.evaluate/0.0.3840.2160@0.0.3840.2160" timestamp="1603019470718" />
     <state x="1687" y="782" width="432" height="476" key="FileChooserDialogImpl" timestamp="1602958393456">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="1687" y="782" width="432" height="476" key="FileChooserDialogImpl/0.0.3840.2160@0.0.3840.2160" timestamp="1602958393456" />
-    <state width="1843" height="613" key="GridCell.Tab.0.bottom" timestamp="1603018883807">
+    <state width="1997" height="368" key="GridCell.Tab.0.bottom" timestamp="1603022425685">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1843" height="613" key="GridCell.Tab.0.bottom/0.0.3840.2160@0.0.3840.2160" timestamp="1603018883807" />
-    <state width="1843" height="613" key="GridCell.Tab.0.center" timestamp="1603018883807">
+    <state width="1997" height="368" key="GridCell.Tab.0.bottom/0.0.3840.2160@0.0.3840.2160" timestamp="1603022425685" />
+    <state width="1997" height="368" key="GridCell.Tab.0.center" timestamp="1603022425685">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1843" height="613" key="GridCell.Tab.0.center/0.0.3840.2160@0.0.3840.2160" timestamp="1603018883807" />
-    <state width="1843" height="613" key="GridCell.Tab.0.left" timestamp="1603018883806">
+    <state width="1997" height="368" key="GridCell.Tab.0.center/0.0.3840.2160@0.0.3840.2160" timestamp="1603022425685" />
+    <state width="1997" height="368" key="GridCell.Tab.0.left" timestamp="1603022425685">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1843" height="613" key="GridCell.Tab.0.left/0.0.3840.2160@0.0.3840.2160" timestamp="1603018883806" />
-    <state width="1843" height="613" key="GridCell.Tab.0.right" timestamp="1603018883807">
+    <state width="1997" height="368" key="GridCell.Tab.0.left/0.0.3840.2160@0.0.3840.2160" timestamp="1603022425685" />
+    <state width="1997" height="368" key="GridCell.Tab.0.right" timestamp="1603022425685">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1843" height="613" key="GridCell.Tab.0.right/0.0.3840.2160@0.0.3840.2160" timestamp="1603018883807" />
-    <state x="1373" y="546" width="1032" height="837" key="SettingsEditor" timestamp="1602361032863">
+    <state width="1997" height="368" key="GridCell.Tab.0.right/0.0.3840.2160@0.0.3840.2160" timestamp="1603022425685" />
+    <state width="1997" height="749" key="GridCell.Tab.1.bottom" timestamp="1603022289639">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="1373" y="546" width="1032" height="837" key="SettingsEditor/0.0.3840.2160@0.0.3840.2160" timestamp="1602361032863" />
+    <state width="1997" height="749" key="GridCell.Tab.1.bottom/0.0.3840.2160@0.0.3840.2160" timestamp="1603022289639" />
+    <state width="1997" height="749" key="GridCell.Tab.1.center" timestamp="1603022289639">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="1997" height="749" key="GridCell.Tab.1.center/0.0.3840.2160@0.0.3840.2160" timestamp="1603022289639" />
+    <state width="1997" height="749" key="GridCell.Tab.1.left" timestamp="1603022289639">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="1997" height="749" key="GridCell.Tab.1.left/0.0.3840.2160@0.0.3840.2160" timestamp="1603022289639" />
+    <state width="1997" height="749" key="GridCell.Tab.1.right" timestamp="1603022289639">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="1997" height="749" key="GridCell.Tab.1.right/0.0.3840.2160@0.0.3840.2160" timestamp="1603022289639" />
+    <state x="1365" y="510" width="1032" height="837" key="SettingsEditor" timestamp="1603023057381">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1365" y="510" width="1032" height="837" key="SettingsEditor/0.0.3840.2160@0.0.3840.2160" timestamp="1603023057381" />
     <state x="691" y="834" width="675" height="540" key="StructurePopup" timestamp="1603017505094">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="691" y="834" width="675" height="540" key="StructurePopup/0.0.3840.2160@0.0.3840.2160" timestamp="1603017505094" />
+    <state x="574" y="740" width="775" height="668" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603019447266">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="574" y="740" width="775" height="668" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.3840.2160@0.0.3840.2160" timestamp="1603019447266" />
     <state x="855" y="523" width="672" height="677" key="run.anything.popup" timestamp="1601748268338">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
@@ -262,6 +292,11 @@
           <url>file://$PROJECT_DIR$/src/practice/art2.java</url>
           <line>50</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practice/reduce.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

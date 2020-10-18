@@ -1,5 +1,3 @@
-package practice;
-
 import java.io.*;
 import java.util.*;
 
