@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="06cf5234-a2aa-4936-916f-b5cde4ddf74f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/reduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/reduce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO-Practice/practice/cowpatibility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO-Practice/practice/dining$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO-Practice/practice/dining.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO-Practice/practice/treecoloring$Node$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO-Practice/practice/treecoloring$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO-Practice/practice/treecoloring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reduce.out" beforeDir="false" afterPath="$PROJECT_DIR$/reduce.out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +73,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.reduce">
+  <component name="RunManager" selected="Application.closing">
     <configuration name="art2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="art2" />
       <module name="USACO-Practice" />
@@ -84,6 +90,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="closing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="closing" />
+      <module name="USACO-Practice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,26 +121,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="teamwork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.teamwork" />
-      <module name="USACO-Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.closing" />
         <item itemvalue="Application.reduce" />
         <item itemvalue="Application.art2 (1)" />
         <item itemvalue="Application.art2" />
         <item itemvalue="Application.snowboots" />
-        <item itemvalue="Application.teamwork" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +161,8 @@
       <workItem from="1603016685486" duration="3375000" />
       <workItem from="1603020333439" duration="2723000" />
       <workItem from="1603037014323" duration="261000" />
-      <workItem from="1603591285511" duration="476000" />
+      <workItem from="1603591285511" duration="4610000" />
+      <workItem from="1603644084032" duration="1117000" />
     </task>
     <servers />
   </component>
@@ -189,38 +190,38 @@
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="1683" y="764" width="432" height="476" key="FileChooserDialogImpl/0.0.3840.2160@0.0.3840.2160" timestamp="1603062464468" />
-    <state width="1997" height="368" key="GridCell.Tab.0.bottom" timestamp="1603022425685">
+    <state width="1948" height="734" key="GridCell.Tab.0.bottom" timestamp="1603595111811">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1997" height="368" key="GridCell.Tab.0.bottom/0.0.3840.2160@0.0.3840.2160" timestamp="1603022425685" />
-    <state width="1997" height="368" key="GridCell.Tab.0.center" timestamp="1603022425685">
+    <state width="1948" height="734" key="GridCell.Tab.0.bottom/0.0.3840.2160@0.0.3840.2160" timestamp="1603595111811" />
+    <state width="1948" height="734" key="GridCell.Tab.0.center" timestamp="1603595111810">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1997" height="368" key="GridCell.Tab.0.center/0.0.3840.2160@0.0.3840.2160" timestamp="1603022425685" />
-    <state width="1997" height="368" key="GridCell.Tab.0.left" timestamp="1603022425685">
+    <state width="1948" height="734" key="GridCell.Tab.0.center/0.0.3840.2160@0.0.3840.2160" timestamp="1603595111810" />
+    <state width="1948" height="734" key="GridCell.Tab.0.left" timestamp="1603595111810">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1997" height="368" key="GridCell.Tab.0.left/0.0.3840.2160@0.0.3840.2160" timestamp="1603022425685" />
-    <state width="1997" height="368" key="GridCell.Tab.0.right" timestamp="1603022425685">
+    <state width="1948" height="734" key="GridCell.Tab.0.left/0.0.3840.2160@0.0.3840.2160" timestamp="1603595111810" />
+    <state width="1948" height="734" key="GridCell.Tab.0.right" timestamp="1603595111811">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1997" height="368" key="GridCell.Tab.0.right/0.0.3840.2160@0.0.3840.2160" timestamp="1603022425685" />
-    <state width="1997" height="749" key="GridCell.Tab.1.bottom" timestamp="1603022289639">
+    <state width="1948" height="734" key="GridCell.Tab.0.right/0.0.3840.2160@0.0.3840.2160" timestamp="1603595111811" />
+    <state width="1948" height="734" key="GridCell.Tab.1.bottom" timestamp="1603595111908">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1997" height="749" key="GridCell.Tab.1.bottom/0.0.3840.2160@0.0.3840.2160" timestamp="1603022289639" />
-    <state width="1997" height="749" key="GridCell.Tab.1.center" timestamp="1603022289639">
+    <state width="1948" height="734" key="GridCell.Tab.1.bottom/0.0.3840.2160@0.0.3840.2160" timestamp="1603595111908" />
+    <state width="1948" height="734" key="GridCell.Tab.1.center" timestamp="1603595111908">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1997" height="749" key="GridCell.Tab.1.center/0.0.3840.2160@0.0.3840.2160" timestamp="1603022289639" />
-    <state width="1997" height="749" key="GridCell.Tab.1.left" timestamp="1603022289639">
+    <state width="1948" height="734" key="GridCell.Tab.1.center/0.0.3840.2160@0.0.3840.2160" timestamp="1603595111908" />
+    <state width="1948" height="734" key="GridCell.Tab.1.left" timestamp="1603595111908">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1997" height="749" key="GridCell.Tab.1.left/0.0.3840.2160@0.0.3840.2160" timestamp="1603022289639" />
-    <state width="1997" height="749" key="GridCell.Tab.1.right" timestamp="1603022289639">
+    <state width="1948" height="734" key="GridCell.Tab.1.left/0.0.3840.2160@0.0.3840.2160" timestamp="1603595111908" />
+    <state width="1948" height="734" key="GridCell.Tab.1.right" timestamp="1603595111908">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1997" height="749" key="GridCell.Tab.1.right/0.0.3840.2160@0.0.3840.2160" timestamp="1603022289639" />
+    <state width="1948" height="734" key="GridCell.Tab.1.right/0.0.3840.2160@0.0.3840.2160" timestamp="1603595111908" />
     <state x="1365" y="510" width="1032" height="837" key="SettingsEditor" timestamp="1603023057381">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
@@ -233,10 +234,14 @@
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="574" y="740" width="775" height="668" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.3840.2160@0.0.3840.2160" timestamp="1603019447266" />
-    <state x="855" y="523" width="672" height="677" key="run.anything.popup" timestamp="1601748268338">
+    <state x="766" y="976" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603594936450">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="855" y="523" width="672" height="677" key="run.anything.popup/0.0.3840.2160@0.0.3840.2160" timestamp="1601748268338" />
+    <state x="766" y="976" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.3840.2160@0.0.3840.2160" timestamp="1603594936450" />
+    <state x="855" y="523" width="840" height="677" key="run.anything.popup" timestamp="1603593391388">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="855" y="523" width="840" height="677" key="run.anything.popup/0.0.3840.2160@0.0.3840.2160" timestamp="1603593391388" />
     <state x="1583" y="507" width="672" height="678" key="search.everywhere.popup" timestamp="1602362801434">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
@@ -284,6 +289,11 @@
           <url>file://$PROJECT_DIR$/src/practice/reduce.java</url>
           <line>62</line>
           <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practice/closing.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
