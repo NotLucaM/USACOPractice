@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="06cf5234-a2aa-4936-916f-b5cde4ddf74f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO-Practice/practice/cowpatibility.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO-Practice/practice/dining$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO-Practice/practice/dining.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO-Practice/practice/treecoloring$Node$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO-Practice/practice/treecoloring$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO-Practice/practice/treecoloring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reduce.out" beforeDir="false" afterPath="$PROJECT_DIR$/reduce.out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +84,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.closing">
+  <component name="RunManager" selected="Application.p248">
     <configuration name="art2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="art2" />
       <module name="USACO-Practice" />
@@ -101,6 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="p248" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p248" />
+      <module name="USACO-Practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="reduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.reduce" />
       <module name="USACO-Practice" />
@@ -114,20 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="snowboots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="snowboots" />
-      <module name="USACO-Practice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.p248" />
         <item itemvalue="Application.closing" />
         <item itemvalue="Application.reduce" />
         <item itemvalue="Application.art2 (1)" />
         <item itemvalue="Application.art2" />
-        <item itemvalue="Application.snowboots" />
       </list>
     </recent_temporary>
   </component>
@@ -162,12 +173,26 @@
       <workItem from="1603020333439" duration="2723000" />
       <workItem from="1603037014323" duration="261000" />
       <workItem from="1603591285511" duration="4610000" />
-      <workItem from="1603644084032" duration="1117000" />
+      <workItem from="1603644084032" duration="3599000" />
+      <workItem from="1603667459566" duration="78000" />
+      <workItem from="1603667548140" duration="106000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="649" y="851" width="627" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603021929774">
@@ -186,26 +211,26 @@
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="720" y="693" key="#xdebugger.evaluate/0.0.3840.2160@0.0.3840.2160" timestamp="1603019470718" />
-    <state x="1683" y="764" width="432" height="476" key="FileChooserDialogImpl" timestamp="1603062464468">
+    <state x="1679" y="746" width="439" height="476" key="FileChooserDialogImpl" timestamp="1603667532037">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="1683" y="764" width="432" height="476" key="FileChooserDialogImpl/0.0.3840.2160@0.0.3840.2160" timestamp="1603062464468" />
-    <state width="1948" height="734" key="GridCell.Tab.0.bottom" timestamp="1603595111811">
+    <state x="1679" y="746" width="439" height="476" key="FileChooserDialogImpl/0.0.3840.2160@0.0.3840.2160" timestamp="1603667532037" />
+    <state width="1987" height="356" key="GridCell.Tab.0.bottom" timestamp="1603662768678">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1948" height="734" key="GridCell.Tab.0.bottom/0.0.3840.2160@0.0.3840.2160" timestamp="1603595111811" />
-    <state width="1948" height="734" key="GridCell.Tab.0.center" timestamp="1603595111810">
+    <state width="1987" height="356" key="GridCell.Tab.0.bottom/0.0.3840.2160@0.0.3840.2160" timestamp="1603662768678" />
+    <state width="1987" height="356" key="GridCell.Tab.0.center" timestamp="1603662768678">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1948" height="734" key="GridCell.Tab.0.center/0.0.3840.2160@0.0.3840.2160" timestamp="1603595111810" />
-    <state width="1948" height="734" key="GridCell.Tab.0.left" timestamp="1603595111810">
+    <state width="1987" height="356" key="GridCell.Tab.0.center/0.0.3840.2160@0.0.3840.2160" timestamp="1603662768678" />
+    <state width="1987" height="356" key="GridCell.Tab.0.left" timestamp="1603662768678">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1948" height="734" key="GridCell.Tab.0.left/0.0.3840.2160@0.0.3840.2160" timestamp="1603595111810" />
-    <state width="1948" height="734" key="GridCell.Tab.0.right" timestamp="1603595111811">
+    <state width="1987" height="356" key="GridCell.Tab.0.left/0.0.3840.2160@0.0.3840.2160" timestamp="1603662768678" />
+    <state width="1987" height="356" key="GridCell.Tab.0.right" timestamp="1603662768678">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1948" height="734" key="GridCell.Tab.0.right/0.0.3840.2160@0.0.3840.2160" timestamp="1603595111811" />
+    <state width="1987" height="356" key="GridCell.Tab.0.right/0.0.3840.2160@0.0.3840.2160" timestamp="1603662768678" />
     <state width="1948" height="734" key="GridCell.Tab.1.bottom" timestamp="1603595111908">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
